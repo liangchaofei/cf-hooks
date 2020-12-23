@@ -1,6 +1,6 @@
 {
   "name": "cf-hooks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -41,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liangchaofei/chook.git"
+    "url": "git+https://github.com/liangchaofei/chooks.git"
   },
   "homepage": "https://liangchaofei.github.io/cf-hooks"
 }
