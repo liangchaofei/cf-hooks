@@ -1,6 +1,6 @@
 {
-  "name": "chooks",
-  "version": "1.0.0",
+  "name": "cf-hooks",
+  "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -38,5 +38,10 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "yorkie": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liangchaofei/chook.git"
+  },
+  "homepage": "https://liangchaofei.github.io/cf-hooks"
 }
