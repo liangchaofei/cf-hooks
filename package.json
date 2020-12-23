@@ -1,6 +1,6 @@
 {
   "name": "cf-hooks",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -27,10 +27,13 @@
     ]
   },
   "dependencies": {
+    "antd": "^4.9.4",
+    "query-string": "^6.13.7",
     "react": "^16.12.0",
     "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
+    "@types/query-string": "^6.3.0",
     "@umijs/test": "^3.0.5",
     "dumi": "^1.0.10",
     "father-build": "^1.17.2",
@@ -43,5 +46,5 @@
     "type": "git",
     "url": "git+https://github.com/liangchaofei/chooks.git"
   },
-  "homepage": "https://liangchaofei.github.io/cf-hooks"
+  "homepage": "https://liangchaofei.github.io/chooks"
 }
