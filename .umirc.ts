@@ -26,7 +26,7 @@ export default defineConfig({
     },
     {
       title: '语雀',
-      path: 'https://liangchaofei.github.io/',
+      path: 'https://www.yuque.com/hyqwan/',
     },
   ],
   publicPath: BaseUrl + '/', // 打包文件时，引入地址生成 publicPath/xxx.js
