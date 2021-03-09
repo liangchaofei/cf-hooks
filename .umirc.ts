@@ -20,6 +20,14 @@ export default defineConfig({
       title: 'GitHub',
       path: 'https://github.com/liangchaofei',
     },
+    {
+      title: '博客',
+      path: 'https://liangchaofei.github.io/',
+    },
+    {
+      title: '语雀',
+      path: 'https://liangchaofei.github.io/',
+    },
   ],
   publicPath: BaseUrl + '/', // 打包文件时，引入地址生成 publicPath/xxx.js
   // more config: https://d.umijs.org/config
