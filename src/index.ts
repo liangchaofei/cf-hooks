@@ -6,6 +6,7 @@ import useUpdateEffect from './useUpdateEffect';
 import useBoolean from './useBoolean';
 import useStyle from './useStyle';
 import useScript from './useScript';
+import useCookie from './useCookie';
 export {
   useSize,
   useVirtualList,
@@ -15,4 +16,5 @@ export {
   useBoolean,
   useStyle,
   useScript,
+  useCookie,
 };
