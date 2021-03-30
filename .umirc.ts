@@ -10,6 +10,25 @@ export default defineConfig({
   mode: 'site',
   // 打包路径配置
   base: BaseUrl,
+  navs: [
+    null, // null 值代表保留约定式生成的导航，只做增量配置
+    {
+      title: 'UI组件',
+      path: 'https://liangchaofei.github.io/cdesign/',
+    },
+    {
+      title: 'GitHub',
+      path: 'https://github.com/liangchaofei',
+    },
+    {
+      title: '博客',
+      path: 'https://liangchaofei.github.io/',
+    },
+    {
+      title: '语雀',
+      path: 'https://www.yuque.com/hyqwan/',
+    },
+  ],
   publicPath: BaseUrl + '/', // 打包文件时，引入地址生成 publicPath/xxx.js
   // more config: https://d.umijs.org/config
 });
