@@ -1,6 +1,6 @@
 {
   "name": "cf-hooks",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -12,6 +12,7 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
+  "author": "curry_fe",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
