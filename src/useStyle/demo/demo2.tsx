@@ -1,8 +1,8 @@
 /*
  * @Author: your name
  * @Date: 2021-03-30 16:01:31
- * @LastEditTime: 2021-03-30 16:01:44
- * @LastEditors: your name
+ * @LastEditTime: 2021-03-30 16:08:24
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /chooks/src/useStyle/demo/demo2.tsx
  */
@@ -22,7 +22,7 @@ export default () => {
         type="primary"
         onClick={() =>
           setInnerHTML(`
-          .byte-btn-primary {
+          .btn-primary {
             background: green !important;
           }
         `)
