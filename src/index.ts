@@ -7,6 +7,7 @@ import useBoolean from './useBoolean';
 import useStyle from './useStyle';
 import useScript from './useScript';
 import useCookie from './useCookie';
+import useStorage from './useStorage';
 export {
   useSize,
   useVirtualList,
@@ -17,4 +18,5 @@ export {
   useStyle,
   useScript,
   useCookie,
+  useStorage,
 };

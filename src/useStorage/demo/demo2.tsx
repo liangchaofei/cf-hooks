@@ -1,14 +1,14 @@
 /*
  * @Author: your name
- * @Date: 2021-03-30 16:46:15
- * @LastEditTime: 2021-03-31 10:54:18
+ * @Date: 2021-03-31 10:54:29
+ * @LastEditTime: 2021-03-31 10:55:49
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /chooks/src/useCookie/demo/demo2.tsx
+ * @FilePath: /chooks/src/useStorage/demo/demo2.tsx
  */
 import React from 'react';
 import { Button, Input, InputNumber } from 'antd';
-import useCookie from '..';
+import useStorage from '..';
 
 type IUserInfo = {
   name: string;
@@ -17,7 +17,7 @@ type IUserInfo = {
 };
 
 export default () => {
-  const [userInfo, setUserInfo] = useCookie<IUserInfo>('userInfo', {
+  const [userInfo, setUserInfo] = useStorage<IUserInfo>('userInfo', {
     name: 'JavaScript',
     age: 24,
     country: 'USA',
@@ -25,11 +25,7 @@ export default () => {
 
   return (
     <>
-      <Button
-        type="primary"
-        onClick={() => setUserInfo()}
-        style={{ marginBottom: 16 }}
-      >
+      <Button onClick={() => setUserInfo()} style={{ marginBottom: 16 }}>
         删除
       </Button>
       <Input

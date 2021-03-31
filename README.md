@@ -1,8 +1,8 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-23 11:48:15
- * @LastEditTime: 2021-03-30 16:56:34
- * @LastEditors: your name
+ * @LastEditTime: 2021-03-31 11:36:09
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /chooks/README.md
 -->
@@ -46,3 +46,5 @@ $ npm run build
 - useThrottleFn
 - useUpdateEffect
 - useVirtualList
+- useClipboardCopy
+- useStorage
