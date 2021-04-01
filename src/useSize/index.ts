@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2020-12-22 10:27:49
+ * @LastEditTime: 2021-04-01 10:41:51
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /chooks/src/useSize/index.ts
+ */
 import { useState, useRef, useLayoutEffect } from 'react';
 import ResizeObserver from 'resize-observer-polyfill';
 
@@ -26,7 +34,7 @@ const useSize = <T extends HTMLElement = any>(
       ref.current = typeof ele === 'function' ? ele() : ele;
     }
 
-    const ro = new ResizeObserver(entries => {
+    const ro = new ResizeObserver((entries: any) => {
       for (const entry of entries) {
         const { clientWidth, clientHeight } = entry.target;
         setSize({
