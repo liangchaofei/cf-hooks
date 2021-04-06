@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-30 16:09:05
+ * @LastEditTime: 2021-04-06 11:49:11
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /chooks/.umirc.ts
+ */
 import { defineConfig } from 'dumi';
 let BaseUrl = '/cf-hooks'; // 仓库的路径
 export default defineConfig({

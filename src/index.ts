@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-23 11:48:37
- * @LastEditTime: 2021-04-01 11:29:17
+ * @LastEditTime: 2021-04-06 11:36:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /chooks/src/index.ts
@@ -20,6 +20,10 @@ import useHover from './useHover';
 import useMouse from './useMouse';
 import useInView from './useInView';
 import useClipboardCopy from './useClipboardCopy';
+import useEventListener from './useEventListener';
+import useKeepPage from './useKeepPage';
+import useClickOutside from './useClickOutside';
+import useFullScreen from './useFullScreen';
 export {
   useSize,
   useVirtualList,
@@ -35,4 +39,8 @@ export {
   useInView,
   useMouse,
   useClipboardCopy,
+  useEventListener,
+  useKeepPage,
+  useClickOutside,
+  useFullScreen,
 };
