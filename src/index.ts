@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-23 11:48:37
- * @LastEditTime: 2021-04-06 11:36:53
+ * @LastEditTime: 2021-04-07 17:58:09
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /chooks/src/index.ts
@@ -24,6 +24,7 @@ import useEventListener from './useEventListener';
 import useKeepPage from './useKeepPage';
 import useClickOutside from './useClickOutside';
 import useFullScreen from './useFullScreen';
+import useLazyImg from './useLazyImg';
 export {
   useSize,
   useVirtualList,
@@ -43,4 +44,5 @@ export {
   useKeepPage,
   useClickOutside,
   useFullScreen,
+  useLazyImg,
 };
